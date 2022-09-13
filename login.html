@@ -2,57 +2,22 @@
 <html>
 <head>
 	<title>Log in</title>
-    <style>
-    form{
-    	padding: 50px;
-    	line-height: 120%;
-    	font-size: 3em;
-    	
-    } 
-    body{
-    	background: rgba(200,0,200,0.2);
-    }
-    footer{
-    	border: 5px solid pink;
-    	padding: 10px;
-    	text-align: center;
-    	margin: 5px;
-    	font-size: 2em;
-    	font-family: italic;
-    }
-    form{
-    	justify-content: center;
-    }
-    a{
-    	font-size: 2em;
-    	color: red;
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    }
-    div{
-    	justify-content: center;
-    	border:5px solid pink;
-
-
-    }
-    input{
-    	padding: 7px;
-    }
-
-    </style>
 </head>
 <body>
 	<div>
-     	<form> 
-     	    First name:<input type="text" id="fname" size="60px" padding><br><br>
-     	    Last name&nbsp;:<input type="text" id="lname" size="60px"><br><br>
-     	    Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type="text" id="email" size="60px"><br><br>
-     	    Password&nbsp;&nbsp;:<input type="password" id="pword" size="60px"><br>
+     	<form>
+     	    Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type="email" id="email" name="email" size="60px"><br><br>
+     	    Password&nbsp;&nbsp;:<input type="password" id="pword" name="password" size="60px"><br>
+            <br>
             <input type="submit" > <input type="reset"><br>
 		 
 	    </form><br>
-	    <a href="index.html">Home</a><br>
+	    
 	</div>
-    <footer>Thanks for stopping by</footer>
+    <a href="index.html">Home</a><br>
+   
 
 </body>
 </html>
